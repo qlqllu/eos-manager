@@ -28,4 +28,15 @@ module.exports = {
     contentBase: './dist',
     historyApiFallback: true
   },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all'
+        }
+      }
+    }
+  }
 };
