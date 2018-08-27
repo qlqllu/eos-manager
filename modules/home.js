@@ -18,7 +18,7 @@ class Home extends Component{
   
     let eos = EOS({
       //keyProvider: '5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3',// private key
-      httpEndpoint: 'http://192.168.1.102:8888',
+      httpEndpoint: 'http://www.myeos.com:8888',
       chainId: chain.local,
     });
     
