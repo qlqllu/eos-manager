@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "eosjs": "^16.0.5",
+    "eosjs-ecc": "^4.0.4",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-router-dom": "^4.2.2"
+    "react-json-view": "^1.19.1",
+    "react-router-dom": "^4.2.2",
+    "scatter-js": "^2.5.2"
   },
   "devDependencies": {
     "webpack-cli": "^2.1.4",
